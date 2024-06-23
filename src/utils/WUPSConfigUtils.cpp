@@ -209,6 +209,7 @@ static WUPSConfigAPICallbackStatus ConfigMenuOpenedCallback(WUPSConfigCategoryHa
                 {LANG_NEDERLANDS, "Nederlands"},
                 {LANG_PORTUGUES, "Portugues"},
                 {LANG_RUSSKI, "Russki"},
+                {LANG_CHINESE, "Chinese"},
         };
 
         root.add(WUPSConfigItemMultipleValues::CreateFromValue(VAL_DEFAULT_LANG_EUR, "Default language for EUR",
@@ -220,7 +221,8 @@ static WUPSConfigAPICallbackStatus ConfigMenuOpenedCallback(WUPSConfigCategoryHa
                 {LANG_ENGLISH, "English"},
                 {LANG_FRANCAIS, "Francais"},
                 {LANG_ESPANOL, "Espanol"},
-                {LANG_PORTUGUES, "Portugues"}};
+                {LANG_PORTUGUES, "Portugues"}
+                {LANG_CHINESE, "Chinese"}};
 
         root.add(WUPSConfigItemMultipleValues::CreateFromValue(VAL_DEFAULT_LANG_USA, "Default language for USA",
                                                                DEFAULT_LANG_FOR_USA, gDefaultLangForUSA,

@@ -161,6 +161,7 @@ void ConfigUtils::displayMenu() {
             {LANG_NEDERLANDS, "Nederlands"},
             {LANG_PORTUGUES, "Portugues"},
             {LANG_RUSSKI, "Russki"},
+            {LANG_CHINESE, "Chinese"},
     };
     std::map<Languages, int32_t> lang_map_to_index{
             {LANG_JAPANESE, 0},
@@ -172,6 +173,7 @@ void ConfigUtils::displayMenu() {
             {LANG_NEDERLANDS, 6},
             {LANG_PORTUGUES, 7},
             {LANG_RUSSKI, 8},
+            {LANG_CHINESE, 9},
     };
     std::map<int32_t, Languages> lang_index_to_map{
             {0, LANG_JAPANESE},
@@ -183,6 +185,7 @@ void ConfigUtils::displayMenu() {
             {6, LANG_NEDERLANDS},
             {7, LANG_PORTUGUES},
             {8, LANG_RUSSKI},
+            {9, LANG_CHINESE}
     };
 
     auto curSelectedLanguage = gCurrentLanguage;
