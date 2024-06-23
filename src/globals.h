@@ -4,7 +4,7 @@
 #include <coreinit/mcp.h>
 #include <optional>
 
-#define VERSION      "v0.2.6"
+#define VERSION      "v0.2.6.1"
 #define VERSION_FULL VERSION VERSION_EXTRA
 
 enum Languages {
@@ -17,6 +17,7 @@ enum Languages {
     LANG_NEDERLANDS = 8,
     LANG_PORTUGUES  = 9,
     LANG_RUSSKI     = 10,
+    LANG_CHINESE    = 11,
 };
 
 extern std::optional<MCPRegion> gRealRegionOpt;
