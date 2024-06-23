@@ -1,5 +1,11 @@
 [![CI-Release](https://github.com/wiiu-env/region_free_plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/wiiu-env/region_free_plugin/actions/workflows/ci.yml)
 
+
+# KENKtrial4Chinese lang method
+Trying to add Chinese support （like Choose EUR region and exist Chinese,so choose it
+
+
+
 # Region Free Plugin
 
 This plugin allows you to launch a title of an other region and / or force the language of a title.
